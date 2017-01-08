@@ -28,3 +28,14 @@ git clone https://github.com/rm-hull/max7219.git
 http://homeway.me/2015/04/29/openwrt-develop-base-util/
 
 
+BOOT
+http://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
+
+```sh
+sudo nano .bashrc
+```
+Scroll down to the bottom and add the line 
+
+```sh
+/usr/bin/screen /usr/bin/python /home/pi/forecast_weather/src/weather.py --showforecast
+```
