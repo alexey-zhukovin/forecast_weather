@@ -39,3 +39,6 @@ Scroll down to the bottom and add the line
 ```sh
 /usr/bin/screen /usr/bin/python /home/pi/forecast_weather/src/weather.py --showforecast
 ```
+
+wifi configuration
+https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
